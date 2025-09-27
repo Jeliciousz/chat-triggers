@@ -2,13 +2,13 @@
 
 A SourceMod plugin for configuring automatic chat responses in your server.
 
-`sm_chat_triggers_filename` (def: "chat-triggers.txt")
+`sm_chat_triggers_filename` (def: "chat_triggers.txt")
 The name of the file that contains your chat triggers. (Located in addons/sourcemod/configs/)
 
 `sm_chat_triggers_reload`
 Command to reload the chat triggers file.
 
-The chat-triggers.txt file looks like this:
+The chat_triggers.txt file looks like this:
 
 ```
 ChatTriggers
