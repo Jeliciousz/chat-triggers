@@ -36,7 +36,7 @@ ChatTriggers
 
 It'll match on just the exact phrase, the phrase prefixed with '!', and, if the phrase is prefixed with '/', it won't send the player's chat message to the rest of the server and only they will see the response.
 
-If there are any spaces in `"trigger"`'s value, they'll have to be replaced with underscores '_' to be triggered with a prefix like '!' or '/'.
+If there are any spaces in the phrase, they'll have to be replaced with underscores '_' to be triggered with a prefix like '!' or '/'.
 
 `"response"` is what the plugin will respond with, sending the response to the whole server, or just the player that triggered it, if they used the '/' prefix.
 
